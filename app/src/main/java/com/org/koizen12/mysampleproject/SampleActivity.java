@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class SampleActivity extends AppCompatActivity {
 
@@ -12,6 +13,7 @@ public class SampleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sample);
         // this is sample class.
+        Toast.makeText(this, " this is sample toast", Toast.LENGTH_SHORT).show();
     }
 
     @Override
